@@ -2,7 +2,7 @@ spring:
   application:
     name: turbine
 
-server:
+server: 
   port: 8989
 
 management:
