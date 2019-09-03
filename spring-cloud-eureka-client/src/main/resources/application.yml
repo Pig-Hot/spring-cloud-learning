@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: eureka-client
+#    consul配置
+#  cloud:
+#    consul:
+#        host: localhost
+#        port: 8500
+
+server:
+  port: 2001
+
+#  eureka配置
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1001/eureka/
